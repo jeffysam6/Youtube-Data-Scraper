@@ -10,7 +10,7 @@ import requests
 from apiclient.discovery import build
 
 
-api_key = "AIzaSyAT-sUvMTv6Y0IDHdpE22NzrQO_3FC5EJA"               
+api_key = ""#youtube api key               
 
 
 
@@ -18,11 +18,11 @@ api_key = "AIzaSyAT-sUvMTv6Y0IDHdpE22NzrQO_3FC5EJA"
 def generate_access_token():
     api_endpoint = "https://www.googleapis.com/oauth2/v4/token"
 
-    refresh_token = "1//0gtdWm83dP5wFCgYIARAAGBASNwF-L9Ir9YouSiCZgfpLAm8cXlMtSbMhnO0i-kz7um-xvw4EtVSogK5b6hzh43pYIAKDDwjqmVM"
+    refresh_token = ""
 
-    client_id = "411449289755-cuv05du6lq8oddkruh3b58u95emfs947.apps.googleusercontent.com"
+    client_id = ""
 
-    client_secret = "Hfttz4k3qfGF3rz4MGB4waSm"
+    client_secret = ""
 
     data = {'refresh_token':refresh_token, 
         'client_id':client_id, 
