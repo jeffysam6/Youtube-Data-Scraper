@@ -8,11 +8,11 @@ import pandas as pd
 from apiclient.discovery import build
 
 
-api_key = "AIzaSyAT-sUvMTv6Y0IDHdpE22NzrQO_3FC5EJA"
+api_key = ""
 
 youtube = build('youtube','v3',developerKey=api_key)
 
-videoId = 'QCUwy_d-EPA'
+videoId = ''
 
 
 
